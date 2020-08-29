@@ -1,7 +1,0 @@
-README.md
-setup.py
-SaboresDeAsia.egg-info/PKG-INFO
-SaboresDeAsia.egg-info/SOURCES.txt
-SaboresDeAsia.egg-info/dependency_links.txt
-SaboresDeAsia.egg-info/requires.txt
-SaboresDeAsia.egg-info/top_level.txt
