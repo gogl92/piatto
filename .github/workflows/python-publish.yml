@@ -38,7 +38,7 @@ jobs:
     - name: Copy the files to the pages branch
       run: |
         \cp docs/index.html pages/index.html
-        \cp docs/index.csv pages/index.csv
+        \cp docs/menu.csv pages/menu.csv
     - name: Git Commit and Push
       uses: github-actions-x/commit@v2.6
       with:
