@@ -35,14 +35,14 @@ jobs:
       with:
         repository: gogl92/SaboresDeAsia
         path: pages
-    - name: Copy the files to the pages branch
-      run: |
-        \cp docs/index.html pages/index.html
-        \cp docs/menu.csv pages/menu.csv
     - name: checkout
       uses: actions/checkout@master
       with: 
         ref: pages
+    - name: Copy the files to the pages branch
+      run: |
+        \cp ../docs/index.html pages/index.html
+        \cp ../docs/menu.csv pages/menu.csv
     - name: push
       uses: github-actions-x/commit@v2.7
       with:
@@ -50,4 +50,4 @@ jobs:
         push-branch: 'pages'
         commit-message: 'Updating pages 🌏'
         force-add: 'true'
-        files: ../pages/index.html ../pages/menu.csv
+        files: pages/index.html pages/menu.csv
