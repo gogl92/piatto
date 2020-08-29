@@ -50,4 +50,4 @@ jobs:
         push-branch: 'pages'
         commit-message: 'Updating pages 🌏'
         force-add: 'true'
-        files: pages/index.html pages/menu.csv
+        files: /home/runner/work/SaboresDeAsia/pages/index.html /home/runner/work/SaboresDeAsia/pages/menu.csv
