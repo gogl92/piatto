@@ -41,10 +41,8 @@ jobs:
         \cp docs/menu.csv pages/menu.csv
     - name: checkout
       uses: actions/checkout@master
-      with:
+      with: 
         ref: pages
-    - name: build
-      uses: github-actions-x/hugo@master
     - name: push
       uses: github-actions-x/commit@v2.7
       with:
