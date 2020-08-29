@@ -1,0 +1,11 @@
+item_name,item_description,item_price,item_category,item_vegan,item_glutenfree
+Vegetable Spring Rolls,"Cabbage, celery, carrots, green onions and Chinese noodles in a crispy wonton wrapper.",8,Chinese,TRUE,FALSE
+Sushi,Roll,4,Japanese,FALSE,FALSE
+Ramen,Naruto,12,Japanese,TRUE,FALSE
+Pho,Beef,10,Vietnamese,FALSE,FALSE
+Koean BBQ,Hot,35,Korean,FALSE,FALSE
+Hot Pot,Shabu Shabu,25,Mongolian,FALSE,FALSE
+Dumplings,Chopsticks,10,International,TRUE,TRUE
+White / Brown Rice,Bowl,5,International,TRUE,TRUE
+Tea of the house,Green tea,2,Beverages,TRUE,TRUE
+Boba,Black Pearls,4,Beverages,TRUE,TRUE
